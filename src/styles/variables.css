@@ -1,0 +1,34 @@
+:root {
+  /* Colors */
+  --color-bg-primary: #213627;
+  /* Updated Primary */
+  --color-bg-secondary: #1A2F24;
+  /* Slightly darker/lighter variant for secondary bg if needed, or keep existing logic but adjusted */
+  --color-text-primary: #F5F5F0;
+  /* Warm White */
+  --color-text-secondary: #efc99a;
+  /* Using secondary color for muted text or keeping beige? User said Secondary Color #efc99a. Usually secondary is an accent. Let's map it to accent-gold or create a new one. */
+  --color-accent-gold: #efc99a;
+  /* Updated Secondary/Gold */
+  --color-accent-orange: #E85D04;
+  /* Energetic Orange */
+  --color-accent-yellow: #FFBA08;
+  /* Warm Yellow */
+  --color-glow: rgba(255, 186, 8, 0.3);
+  /* Warm light glow */
+
+  /* Typography */
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 8rem;
+
+  /* Transitions */
+  --transition-fast: 0.3s ease;
+  --transition-slow: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
