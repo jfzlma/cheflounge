@@ -20,7 +20,7 @@ const StallCard = ({ stall }) => {
         >
             {/* Background Image */}
             <motion.img
-                src={stall.image}
+                src={`/images/stalls/${stall.id}.jpg`}
                 alt={stall.name}
                 style={{
                     width: '100%',

@@ -1,16 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import gallery1 from '../assets/images/gallery1.jpg';
-import gallery2 from '../assets/images/gallery2.jpg';
-import gallery3 from '../assets/images/gallery3.jpg';
-import gallery4 from '../assets/images/gallery4.jpg';
 
-const photos = [
-    { id: 1, src: gallery1, alt: "Outdoor Ambience" },
-    { id: 2, src: gallery2, alt: "Food Court Vibe" },
-    { id: 3, src: gallery3, alt: "Evening Lights" },
-    { id: 4, src: gallery4, alt: "Seating Area" },
-];
+// Automatically import all images from the gallery folder
+const galleryModules = import.meta.glob('../assets/images/gallery/*.(jpg|jpeg|png|webp|gif)', { eager: true });
+
+// Convert the modules object to an array of image paths
+const galleryImages = Object.keys(galleryModules).map(path => galleryModules[path].default);
 
 const PhotoGallerySection = ({ id }) => {
     return (
@@ -35,9 +30,9 @@ const PhotoGallerySection = ({ id }) => {
                 </motion.div>
 
                 <div className="gallery-grid">
-                    {photos.map((photo, index) => (
+                    {galleryImages.map((imageSrc, index) => (
                         <motion.div
-                            key={photo.id}
+                            key={imageSrc}
                             initial={{ opacity: 0, scale: 0.9 }}
                             whileInView={{ opacity: 1, scale: 1 }}
                             transition={{ duration: 0.6, delay: index * 0.1 }}
@@ -45,13 +40,13 @@ const PhotoGallerySection = ({ id }) => {
                             style={{
                                 borderRadius: '16px',
                                 overflow: 'hidden',
-                                height: '320px', // Match StallCard height
+                                height: '320px',
                                 boxShadow: '0 4px 20px rgba(0,0,0,0.2)'
                             }}
                         >
                             <img
-                                src={photo.src}
-                                alt={photo.alt}
+                                src={imageSrc}
+                                alt={`Gallery ${index + 1}`}
                                 style={{
                                     width: '100%',
                                     height: '100%',
