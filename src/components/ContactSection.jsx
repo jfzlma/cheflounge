@@ -40,14 +40,14 @@ const ContactSection = ({ id }) => {
                                     <div style={{ color: 'var(--color-accent-gold)', background: 'rgba(212, 175, 55, 0.1)', padding: '1rem', borderRadius: '50%' }}><MapPin size={28} /></div>
                                     <div>
                                         <h4 style={{ color: 'var(--color-text-primary)', marginBottom: '0.25rem' }}>Location</h4>
-                                        <p style={{ color: 'var(--color-text-secondary)' }}>Sales Tax Office Rd, Nadakkave, Kozhikode</p>
+                                        <p style={{ color: 'var(--color-text-secondary)' }}>Sales Tax Office Rd, Ashokapuram, Nadakkave, Kozhikode</p>
                                     </div>
                                 </div>
                                 <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
                                     <div style={{ color: 'var(--color-accent-gold)', background: 'rgba(212, 175, 55, 0.1)', padding: '1rem', borderRadius: '50%' }}><Clock size={28} /></div>
                                     <div>
                                         <h4 style={{ color: 'var(--color-text-primary)', marginBottom: '0.25rem' }}>Opening Hours</h4>
-                                        <p style={{ color: 'var(--color-text-secondary)' }}>4:00 PM - Midnight (Daily)</p>
+                                        <p style={{ color: 'var(--color-text-secondary)' }}>2:00 PM - 2:00 AM(Daily)</p>
                                     </div>
                                 </div>
                                 <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>

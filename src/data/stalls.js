@@ -18,8 +18,8 @@ export const stalls = [
         specialty: "Exotic Fruit Salads"
     },
     {
-        id: "teatalks",
-        name: "Tea Talks",
+        id: "tlof",
+        name: "T Lof",
         description: "Brewing conversations over premium tea.",
         specialty: "Karak Chai & Snacks"
     },

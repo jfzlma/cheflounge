@@ -2,8 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 // Automatically import all images from the gallery folder
-const galleryModules = import.meta.glob('../assets/images/gallery/*.(jpg|jpeg|png|webp|gif)', { eager: true });
-
+const galleryModules = import.meta.glob('../../public/images/gallery/*.(jpg|jpeg|png|webp|gif)', { eager: true });
 // Convert the modules object to an array of image paths
 const galleryImages = Object.keys(galleryModules).map(path => galleryModules[path].default);
 
