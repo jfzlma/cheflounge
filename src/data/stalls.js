@@ -54,8 +54,8 @@ export const stalls = [
         specialty: "Fried Chicken Buckets"
     },
     {
-        id: "livefish",
-        name: "Live Fish",
+        id: "seagrill",
+        name: "Sea Grill",
         description: "Fresh catch grilled to perfection.",
         specialty: "Grilled Seafood Platter"
     },
@@ -67,7 +67,7 @@ export const stalls = [
     },
     {
         id: "malabarimutton",
-        name: "Malabari Mutton",
+        name: "The Malabari Mutton",
         description: "Spicy and tender mutton delicacies.",
         specialty: "Mutton Curry & Parotta"
     }

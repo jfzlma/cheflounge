@@ -59,7 +59,7 @@ const ContactSection = ({ id }) => {
                                     </div>
                                     <div style={{ flex: 1 }}>
                                         <h4 style={{ color: 'var(--color-text-primary)', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Location</h4>
-                                        <p style={{ color: 'var(--color-text-secondary)', lineHeight: '1.6' }}>Sales Tax Office Rd, Ashokapuram, Nadakkave, Kozhikode</p>
+                                        <p style={{ color: 'var(--color-text-secondary)', lineHeight: '1.6' }}>Sales Tax Office Rd, Ashokapuram, Kozhikode</p>
                                     </div>
                                 </div>
                                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: '1rem' }}>
@@ -99,7 +99,7 @@ const ContactSection = ({ id }) => {
                                     </div>
                                     <div style={{ flex: 1 }}>
                                         <h4 style={{ color: 'var(--color-text-primary)', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Contact</h4>
-                                        <p style={{ color: 'var(--color-text-secondary)', lineHeight: '1.6' }}>+91 123 456 7890</p>
+                                        <p style={{ color: 'var(--color-text-secondary)', lineHeight: '1.6' }}>+91 98461 29912</p>
                                     </div>
                                 </div>
                             </div>
