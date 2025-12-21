@@ -1,74 +1,74 @@
 export const stalls = [
     {
+        id: "lbnco",
+        name: "LBN & Co.",
+        description: "Premium Desserts & Pastries.",
+        // specialty: "Desserts"
+    },
+    {
         id: "meltndip",
         name: "Melt N Dip",
-        description: "Indulge in the finest Belgian chocolate treats.",
-        specialty: "Chocolate Fountains & Crepes"
+        description: "Pancakes, Waffles & Belgian Chocolate.",
+        // specialty: "Pancake, Waffle, Desserts, Minuman"
     },
     {
         id: "keralafoodstory",
         name: "Kerala Food Story",
-        description: "Authentic flavors from God's own country.",
-        specialty: "Malabar Biryani"
+        description: "Paal Porotta, Pidi & Kerala Classics.",
+        // specialty: "Paal porotta, Pidi"
     },
     {
         id: "fruitbowl",
         name: "Fruit Bowl",
-        description: "Fresh, juicy, and healthy fruit platters.",
-        specialty: "Exotic Fruit Salads"
+        description: "Fresh, Juicy, and Healthy Fruit Platters.",
+        // specialty: "Fruit bowls and fresh juices"
     },
     {
         id: "tlof",
         name: "T Lof",
-        description: "Brewing conversations over premium tea.",
-        specialty: "Karak Chai & Snacks"
+        description: "Premium Tea & Snacks.",
+        // specialty: "Tea and snacks"
     },
     {
         id: "kluch",
         name: "Klüch",
-        description: "Modern European bites and sandwiches.",
-        specialty: "Gourmet Sandwiches"
+        description: "Loaded Fries & Gourmet Burgers.",
+        // specialty: "Loded fries, burger"
     },
     {
         id: "polloloco",
         name: "Pollo Loco",
-        description: "Crazy good grilled chicken.",
-        specialty: "Peri Peri Chicken"
+        description: "Grilled Shawaya Chicken.",
+        // specialty: "Shawaya Chicken"
     },
     {
         id: "chifanle",
         name: "Chifanle",
-        description: "Asian fusion street food.",
-        specialty: "Dim Sum & Noodles"
+        description: "Chinese & Asian Fusion.",
+        // specialty: "Chinese dishes"
     },
     {
         id: "fatoor",
         name: "Fatoor",
-        description: "Traditional Arabian breakfast all day.",
-        specialty: "Falafel & Hummus"
+        description: "Arabian & Shawarma.",
+        // specialty: "Shawarma and more"
     },
     {
         id: "jbcrunch",
-        name: "JB Crunch",
-        description: "Crispy fried delights.",
-        specialty: "Fried Chicken Buckets"
+        name: "JB CRUNCH",
+        description: "Crispy Fried Chicken.",
+        // specialty: "Fried Chicken"
     },
     {
         id: "seagrill",
         name: "Sea Grill",
-        description: "Fresh catch grilled to perfection.",
-        specialty: "Grilled Seafood Platter"
-    },
-    {
-        id: "lbnco",
-        name: "LBN & Co.",
-        description: "Lebanese grills and shawarmas.",
-        specialty: "Authentic Shawarma"
+        description: "Fresh Catch Grilled to Perfection.",
+        // specialty: "Seafood"
     },
     {
         id: "malabarimutton",
         name: "The Malabari Mutton",
-        description: "Spicy and tender mutton delicacies.",
-        specialty: "Mutton Curry & Parotta"
+        description: "Mutton dishes & Malabar parotta.",
+        // specialty: "Mutton dishes & Parotta"
     }
 ];
